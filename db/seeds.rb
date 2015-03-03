@@ -1,5 +1,6 @@
 require 'csv'
 require_relative '../lib/app'
+require 'pry'
 
 csv = CSV.open(File.join(File.dirname(__FILE__), 'seeds', 'candidate_donations_2014.csv'), headers: true)
 

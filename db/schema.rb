@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20150303040257) do
   create_table "candidates", force: :cascade do |t|
     t.string  "first_names"
     t.string  "last_name"
+    t.string  "slug"
     t.integer "party_id"
     t.integer "electorate_id"
   end
@@ -31,14 +32,17 @@ ActiveRecord::Schema.define(version: 20150303040257) do
 
   create_table "donors", force: :cascade do |t|
     t.string "name"
+    t.string "slug"
   end
 
   create_table "electorates", force: :cascade do |t|
     t.string "name"
+    t.string "slug"
   end
 
   create_table "parties", force: :cascade do |t|
     t.string "name"
+    t.string "slug"
   end
 
 end

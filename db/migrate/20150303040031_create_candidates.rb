@@ -3,6 +3,7 @@ class CreateCandidates < ActiveRecord::Migration
     create_table :candidates do |t|
       t.string :first_names
       t.string :last_name
+      t.string :slug
       t.integer :party_id
       t.integer :electorate_id
     end
