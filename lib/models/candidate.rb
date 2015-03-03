@@ -1,15 +1,12 @@
 class Candidate < ActiveRecord::Base
   include Sluginator
+  include Presentable
   validates :first_names, :last_name, presence: true
 
   has_many :donations
   has_many :donors, through: :donations
   belongs_to :electorate
   belongs_to :party
-
-  def as_json(presenter_type = :default)
-    CandidatePresenter.new(self).public_send(presenter_type)
-  end
 
   def donations_list
     donations.map do |d|

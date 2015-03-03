@@ -1,8 +1,7 @@
 class CandidatePresenter < BasePresenter
   def index
     default.merge({
-      total: record.total_donations,
-      link: "/v1/candidates/#{record.slug}.json"
+      total: record.total_donations
     })
   end
 
@@ -19,7 +18,8 @@ class CandidatePresenter < BasePresenter
       first_names: record.first_names,
       last_name: record.last_name,
       electorate: record.electorate.name,
-      party: record.party.name
+      party: record.party.name,
+      link: "/v1/candidates/#{record.slug}.json"
     }
   end
 

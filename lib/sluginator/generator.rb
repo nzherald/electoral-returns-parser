@@ -7,7 +7,7 @@ module Sluginator
     private
 
     def sanitize(text)
-      text.to_ascii.downcase.gsub(' ', '-')
+      text.to_ascii.downcase.gsub(' ', '-').gsub(/\(|\)/, '')
     end
   end
 end

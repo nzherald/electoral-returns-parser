@@ -10,8 +10,6 @@ class ElectoralReturnsApp < Sinatra::Base
   include ElectorateRoutes
   include PartyRoutes
   include DonorRoutes
-
-  get '/v1/donations.json' do
-    JSON.pretty_generate Donation.all.map(&:as_json)
-  end
+  include DonationRoutes
+  include TreemapRoutes
 end
