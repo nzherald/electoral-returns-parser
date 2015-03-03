@@ -8,6 +8,18 @@ class DonorPresenter < BasePresenter
 
   alias_method :show, :index
 
+  def treemap
+    {
+      name: record.name,
+      children: record.donations.map do |c|
+        {
+          name: c.candidate.name,
+          value: c.amount
+        }
+      end
+    }
+  end
+
   def default
     {
       id: record.slug,

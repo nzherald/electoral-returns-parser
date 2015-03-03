@@ -22,7 +22,7 @@ class ElectoratePresenter < BasePresenter
           children: c.donations.map do |d|
             {
               name: d.donor.name,
-              size: d.amount
+              value: d.amount
             }
           end
         }

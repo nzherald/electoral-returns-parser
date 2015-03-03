@@ -13,6 +13,24 @@ class PartyPresenter < BasePresenter
     })
   end
 
+  def treemap
+    {
+      name: record.name,
+      children: record.candidates.map do |c|
+        {
+          name: c.name,
+          children: c.donations.map do |d|
+            {
+              name: d.donor.name,
+              value: d.amount
+            }
+          end
+        }
+      end
+    }
+  end
+
+
   def default
     {
       id: record.slug,

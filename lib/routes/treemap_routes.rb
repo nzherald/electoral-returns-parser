@@ -12,19 +12,19 @@ module TreemapRoutes
 
     def electorates(path, base)
       base.get path do
-        JSON.pretty_generate Electorate.all.map { |c| c.as_json(:treemap) }
+        JSON.pretty_generate({ name: 'Donations by electorate', children: Electorate.all.map { |c| c.as_json(:treemap) } })
       end
     end
 
     def parties(path, base)
       base.get path do
-        JSON.pretty_generate Party.all.map { |c| c.as_json(:treemap) }
+        JSON.pretty_generate({ name: 'Donations by party', children: Party.all.map { |c| c.as_json(:treemap) } })
       end
     end
 
     def donors(path, base)
       base.get path do
-        JSON.pretty_generate Donor.all.map { |c| c.as_json(:treemap) }
+        JSON.pretty_generate({ name: 'Donations by donor', children: Donor.all.map { |c| c.as_json(:treemap) } })
       end
     end
   end
