@@ -19,10 +19,10 @@ class ElectoratePresenter < BasePresenter
       children: record.candidates.map do |c|
         {
           name: c.name,
+          colour: c.party.colour,
           children: c.donations.map do |d|
             {
               name: d.donor.name,
-              colour: d.candidate.party.colour,
               value: d.amount
             }
           end
