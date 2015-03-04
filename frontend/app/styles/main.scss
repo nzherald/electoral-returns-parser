@@ -4,6 +4,11 @@ $icon-font-path: '../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+body {
+  font: 14px/17px Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+  text-rendering: optimizeLegibility
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -98,12 +103,14 @@ body {
   background: #ddd;
 }
 
-text {
+g.children > text {
   pointer-events: none;
+  opacity: 0;
+  overflow: visible;
 }
 
-.grandparent text {
-  font-weight: bold;
+g:hover > text {
+  opacity: 1;
 }
 
 rect {
@@ -117,11 +124,16 @@ rect.parent,
 }
 
 .grandparent rect {
-  fill: orange;
+  fill: #7f8c8d;
 }
 
 .grandparent:hover rect {
-  fill: #ee9700;
+  fill: #95a5a6;
+}
+
+.grandparent text {
+  fill: #fff;
+  text-transform: uppercase;
 }
 
 .children rect.parent,

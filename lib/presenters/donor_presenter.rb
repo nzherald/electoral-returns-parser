@@ -14,6 +14,7 @@ class DonorPresenter < BasePresenter
       children: record.donations.map do |c|
         {
           name: c.candidate.name,
+          colour: c.candidate.party.colour,
           value: c.amount
         }
       end

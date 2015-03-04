@@ -16,6 +16,7 @@ class PartyPresenter < BasePresenter
   def treemap
     {
       name: record.name,
+      colour: record.colour,
       children: record.candidates.map do |c|
         {
           name: c.name,
