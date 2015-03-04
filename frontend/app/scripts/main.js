@@ -1,7 +1,7 @@
 /* jshint devel:true */
 $(function() {
   var margin = {top: 40, right: 0, bottom: 0, left: 0},
-  width = 560 - margin.right - margin.left,
+  width = 700 - margin.right - margin.left,
   height = 500 - margin.top - margin.bottom,
   formatNumber = d3.format("$,d"),
   transitioning;
@@ -43,10 +43,10 @@ $(function() {
   .attr("dy", "1em");
 
   d3.json("/api/v1/treemaps/parties.json", function(root) {
-    console.log(root);
+    var rootElement = root;
     initialize(root);
     var totalSpending = accumulate(root);
-    console.log(totalSpending);
+    console.log('Total spending: ' + totalSpending);
     layout(root);
     display(root);
 
@@ -164,6 +164,22 @@ $(function() {
       return g;
     }
 
+    var searchInput = d3.select("#search-field")
+                      .on("keyup", keyuped);
+
+    function keyuped() {
+      if (d3.event.keyCode === 27) {
+        this.value = "";
+        this.blur();
+      }
+      search(this.value.trim());
+    }
+
+    function search(query) {
+      debugger;
+      console.log(query);
+    }
+
     function text(text) {
       text.attr("x", function(d) { return x(d.x) + 6; })
       .attr("y", function(d) { return y(d.y) + 6; });
@@ -192,7 +208,7 @@ $(function() {
       console.log(d);
 
       return d.parent
-        ? "< back | " + name(d.parent) + " - " + d.name
+        ? name(d.parent) + " - " + d.name
         : d.name;
     }
   });
