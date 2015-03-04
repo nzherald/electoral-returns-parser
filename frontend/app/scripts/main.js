@@ -159,15 +159,47 @@ $(function() {
       .append("title")
       .text(function(d) { return formatNumber(d.value); });
 
-
       g.append("text")
       .attr("dy", ".75em")
       .text(function(d) { return d.name; })
       .call(text);
 
+      $(Searcher.selector).on('typeahead:selected', transitionToNode);
+      $(Searcher.selector).on('typeahead:autocompleted', transitionToNode);
+
+      function findNode(event, suggestion, datasetName) {
+        var children = selectTreemapChildren();
+        var selectedNode = children.filter(function(c) { return c.name === suggestion.value })[0];
+        return selectedNode;
+      }
+
+      function transitionToNode(event, suggestion, datasetName) {
+        var selectedNode = findNode(event, suggestion, datasetName);
+        //var transitionSequence = findParentChain(selectedNode);
+        //for(var i = 0, len = transitionSequence.length; i < len; i++) {
+        //  transition(transitionSequence[i]);
+        //}
+        transition(selectedNode);
+      }
+
+      function findParentChain(node, chain) {
+        var nodeChain = [];
+        if(chain) nodeChain = chain;
+        nodeChain.push(node);
+
+        if(node.parent) {
+          return findParentChain(node.parent, nodeChain)
+        }
+        else {
+          return nodeChain;
+        }
+      }
+
       function transition(d) {
         if (transitioning || !d) return;
         transitioning = true;
+
+        var svg = d3.selectAll('svg');
 
         var g2 = display(d),
         t1 = g1.transition().duration(750),
@@ -182,6 +214,14 @@ $(function() {
 
         // Draw child nodes on top of parent nodes.
         svg.selectAll(".depth").sort(function(a, b) { return a.depth - b.depth; });
+
+        // Clean up
+        var els = svg.selectAll(".depth")[0].reverse();
+        if(els.length > 2) {
+          for(var i = 2; i < els.length; i++) {
+            els[i].remove();
+          }
+        }
 
         // Fade-in entering text.
         g2.selectAll("text").style("fill-opacity", 0);
@@ -240,17 +280,10 @@ $(function() {
       return dataSource;
     }
 
-    function findNode(event, suggestion, datasetName) {
-      var children = selectTreemapChildren();
-      var selectedNode = children.filter(function(c) { return c.name === suggestion.value })[0]
-    }
-
     function setupSearch() {
       Searcher.donationsDataSource = selectTreemapChildren().map(function(d) { return d.name });
 
       Searcher.init()
-      $(Searcher.selector).on('typeahead:selected', findNode)
-      $(Searcher.selector).on('typeahead:autocompleted', findNode)
     };
   });
 
