@@ -175,6 +175,7 @@ $(function() {
         }
 
         function transitionToNode(event, suggestion, datasetName) {
+          $(Searcher.selector).val('');
           var selectedNode = findNode(event, suggestion, datasetName);
           //var transitionSequence = findParentChain(selectedNode);
           //for(var i = 0, len = transitionSequence.length; i < len; i++) {
@@ -297,18 +298,24 @@ $(function() {
 
   $('.by-party').on('click', function(e) {
     e.preventDefault();
+    $('button').removeClass('active');
+    $('button.by-party').addClass('active');
     $(Searcher.selector).typeahead('destroy');
     $('#treemap').empty();
     insertTreemap("/api/v1/treemaps/parties.json");
   });
   $('.by-electorate').on('click', function(e) {
     e.preventDefault();
+    $('button').removeClass('active');
+    $('button.by-electorate').addClass('active');
     $(Searcher.selector).typeahead('destroy');
     $('#treemap').empty();
     insertTreemap("/api/v1/treemaps/electorates.json");
   });
   $('.by-donor').on('click', function(e) {
     e.preventDefault();
+    $('button').removeClass('active');
+    $('button.by-donor').addClass('active');
     $(Searcher.selector).typeahead('destroy');
     $('#treemap').empty();
     insertTreemap("/api/v1/treemaps/donors.json");
