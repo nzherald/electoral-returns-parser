@@ -35,16 +35,16 @@ var Searcher = {
       });
 
       cb(matches);
-    }
+    };
   }
-}
+};
 
 $(function() {
   function insertTreemap(path) {
     var margin = {top: 40, right: 0, bottom: 0, left: 0},
     width = 700 - margin.right - margin.left,
     height = 500 - margin.top - margin.bottom,
-    formatNumber = d3.format("$,d"),
+    formatNumber = d3.format('$,d'),
     transitioning;
 
     var x = d3.scale.linear()
@@ -61,32 +61,31 @@ $(function() {
     .ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
     .round(false);
 
-    var svg = d3.select("#treemap").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.bottom + margin.top)
-    .style("margin-left", -margin.left + "px")
-    .style("margin.right", -margin.right + "px")
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-    .style("shape-rendering", "crispEdges");
+    var svg = d3.select('#treemap').append('svg')
+    .attr('width', width + margin.left + margin.right)
+    .attr('height', height + margin.bottom + margin.top)
+    .style('margin-left', -margin.left + 'px')
+    .style('margin.right', -margin.right + 'px')
+    .append('g')
+    .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+    .style('shape-rendering', 'crispEdges');
 
-    var grandparent = svg.append("g")
-    .attr("class", "grandparent");
+    var grandparent = svg.append('g')
+    .attr('class', 'grandparent');
 
-    grandparent.append("rect")
-    .attr("y", -margin.top)
-    .attr("width", width)
-    .attr("height", margin.top);
+    grandparent.append('rect')
+    .attr('y', -margin.top)
+    .attr('width', width)
+    .attr('height', margin.top);
 
-    grandparent.append("text")
-    .attr("x", 20)
-    .attr("y", 10 - margin.top)
-    .attr("dy", "1em");
+    grandparent.append('text')
+    .attr('x', 20)
+    .attr('y', 10 - margin.top)
+    .attr('dy', '1em');
 
     d3.json(path, function(root) {
       initialize(root);
       var totalSpending = accumulate(root);
-      console.log('Total spending: ' + totalSpending);
       layout(root);
       display(root);
       setupSearch();
@@ -132,36 +131,36 @@ $(function() {
       function display(d) {
         grandparent
         .datum(d.parent)
-        .on("click", transition)
-        .select("text")
+        .on('click', transition)
+        .select('text')
         .text(name(d));
 
-        var g1 = svg.insert("g", ".grandparent")
+        var g1 = svg.insert('g', '.grandparent')
         .datum(d)
-        .attr("class", "depth");
+        .attr('class', 'depth');
 
-        var g = g1.selectAll("g")
+        var g = g1.selectAll('g')
         .data(d._children)
-        .enter().append("g");
+        .enter().append('g');
 
         g.filter(function(d) { return d._children; })
-        .classed("children", true)
-        .on("click", transition);
+        .classed('children', true)
+        .on('click', transition);
 
-        g.selectAll(".child")
+        g.selectAll('.child')
         .data(function(d) { return d._children || [d]; })
-        .enter().append("rect")
-        .attr("class", "child")
+        .enter().append('rect')
+        .attr('class', 'child')
         .call(rect);
 
-        g.append("rect")
-        .attr("class", "parent")
+        g.append('rect')
+        .attr('class', 'parent')
         .call(rect)
-        .append("title")
+        .append('title')
         .text(function(d) { return formatNumber(d.value); });
 
-        g.append("text")
-        .attr("dy", ".75em")
+        g.append('text')
+        .attr('dy', '.75em')
         .text(function(d) { return d.name; })
         .call(text);
 
@@ -212,13 +211,13 @@ $(function() {
           y.domain([d.y, d.y + d.dy]);
 
           // Enable anti-aliasing during the transition.
-          svg.style("shape-rendering", null);
+          svg.style('shape-rendering', null);
 
           // Draw child nodes on top of parent nodes.
-          svg.selectAll(".depth").sort(function(a, b) { return a.depth - b.depth; });
+          svg.selectAll('.depth').sort(function(a, b) { return a.depth - b.depth; });
 
           // Clean up
-          var els = svg.selectAll(".depth")[0].reverse();
+          var els = svg.selectAll('.depth')[0].reverse();
           if(els.length > 2) {
             for(var i = 2; i < els.length; i++) {
               els[i].remove();
@@ -226,17 +225,17 @@ $(function() {
           }
 
           // Fade-in entering text.
-          g2.selectAll("text").style("fill-opacity", 0);
+          g2.selectAll('text').style('fill-opacity', 0);
 
           // Transition to the new view.
-          t1.selectAll("text").call(text).style("fill-opacity", 0);
-          t2.selectAll("text").call(text).style("fill-opacity", 1);
-          t1.selectAll("rect").call(rect);
-          t2.selectAll("rect").call(rect);
+          t1.selectAll('text').call(text).style('fill-opacity', 0);
+          t2.selectAll('text').call(text).style('fill-opacity', 1);
+          t1.selectAll('rect').call(rect);
+          t2.selectAll('rect').call(rect);
 
           // Remove the old node when the transition is finished.
-          t1.remove().each("end", function() {
-            svg.style("shape-rendering", "crispEdges");
+          t1.remove().each('end', function() {
+            svg.style('shape-rendering', 'crispEdges');
             transitioning = false;
           });
         }
@@ -244,15 +243,15 @@ $(function() {
         return g;
       }
       function text(text) {
-        text.attr("x", function(d) { return x(d.x) + 6; })
-        .attr("y", function(d) { return y(d.y) + 6; });
+        text.attr('x', function(d) { return x(d.x) + 6; })
+        .attr('y', function(d) { return y(d.y) + 6; });
       }
 
       function rect(rect) {
-        rect.attr("x", function(d) { return x(d.x); })
-        .attr("y", function(d) { return y(d.y); })
-        .attr("width", function(d) { return x(d.x + d.dx) - x(d.x); })
-        .attr("height", function(d) { return y(d.y + d.dy) - y(d.y); })
+        rect.attr('x', function(d) { return x(d.x); })
+        .attr('y', function(d) { return y(d.y); })
+        .attr('width', function(d) { return x(d.x + d.dx) - x(d.x); })
+        .attr('height', function(d) { return y(d.y + d.dy) - y(d.y); })
         .style('fill', function(d) { return findColour(d); })
         .style('opacity', '0.5');
 
@@ -273,11 +272,7 @@ $(function() {
       };
 
       function name(d) {
-        console.log(d);
-
-        return d.parent
-          ? name(d.parent) + " - " + d.name
-          : d.name;
+        return d.parent ? name(d.parent) + ' - ' + d.name : d.name;
       };
 
       function selectTreemapChildren() {
@@ -294,7 +289,7 @@ $(function() {
       };
     });
   }
-  insertTreemap("/api/v1/treemaps/parties.json");
+  insertTreemap('/api/v1/treemaps/parties.json');
 
   $('.by-party').on('click', function(e) {
     e.preventDefault();
@@ -302,7 +297,7 @@ $(function() {
     $('button.by-party').addClass('active');
     $(Searcher.selector).typeahead('destroy');
     $('#treemap').empty();
-    insertTreemap("/api/v1/treemaps/parties.json");
+    insertTreemap('/api/v1/treemaps/parties.json');
   });
   $('.by-electorate').on('click', function(e) {
     e.preventDefault();
@@ -310,7 +305,7 @@ $(function() {
     $('button.by-electorate').addClass('active');
     $(Searcher.selector).typeahead('destroy');
     $('#treemap').empty();
-    insertTreemap("/api/v1/treemaps/electorates.json");
+    insertTreemap('/api/v1/treemaps/electorates.json');
   });
   $('.by-donor').on('click', function(e) {
     e.preventDefault();
@@ -318,6 +313,6 @@ $(function() {
     $('button.by-donor').addClass('active');
     $(Searcher.selector).typeahead('destroy');
     $('#treemap').empty();
-    insertTreemap("/api/v1/treemaps/donors.json");
+    insertTreemap('/api/v1/treemaps/donors.json');
   });
 });
