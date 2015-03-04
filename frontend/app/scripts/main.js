@@ -44,7 +44,7 @@ $(function() {
     var margin = {top: 40, right: 0, bottom: 0, left: 0},
     width = 700 - margin.right - margin.left,
     height = 500 - margin.top - margin.bottom,
-    formatNumber = d3.format("$,d"),
+    formatNumber = d3.format("$,f"),
     transitioning;
 
     var x = d3.scale.linear()
@@ -54,6 +54,37 @@ $(function() {
     var y = d3.scale.linear()
     .domain([0, height])
     .range([0, height]);
+
+    var mousemove = function(d) {
+      var xPosition = d3.event.pageX - 15;
+      var yPosition = d3.event.pageY + 5;
+
+      d3.select("#tooltip")
+        .style("left", xPosition + "px")
+        .style("top", yPosition + "px");
+
+      d3.select("#tooltip")
+        .html(tooltipText(d));
+        // .html('<p>'+d.name+'</p>' + '<br>' + '<p>' + d["value"] + '</p>');
+
+      d3.select("#tooltip").classed("hidden", false);
+    };
+
+    function tooltipText(d) {
+      var text = "";
+      text = text + "<p>" + d.name + "</p>";
+      text = text + "<p>" + formatNumber(d.value) + "</p>";
+      if(d.parent) {
+        text = text + "<p>" + "Overall "  + d.parent.name + "</p>";
+        text = text + "<p>" + formatNumber(d.parent.value) + "</p>"; 
+      }
+      return text;
+    }
+
+
+    var mouseout = function() {
+      d3.select("#tooltip").classed("hidden",true)
+    };
 
     var treemap = d3.layout.treemap()
     .children(function(d, depth) { return depth ? null : d._children; })
@@ -157,13 +188,13 @@ $(function() {
         g.append("rect")
         .attr("class", "parent")
         .call(rect)
-        .append("title")
-        .text(function(d) { return formatNumber(d.value); });
+        .on("mousemove", mousemove)
+        .on("mouseout", mouseout);
 
-        g.append("text")
+        /* g.append("text")
         .attr("dy", ".75em")
         .text(function(d) { return d.name; })
-        .call(text);
+        .call(text); */
 
         $(Searcher.selector).on('typeahead:selected', transitionToNode);
         $(Searcher.selector).on('typeahead:autocompleted', transitionToNode);

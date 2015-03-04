@@ -220,3 +220,22 @@ rect.parent,
 .tt-suggestion p {
   margin: 0;
 }
+
+#tooltip {
+  position: absolute;
+  width: 190px;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+
