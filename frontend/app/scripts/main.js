@@ -1,4 +1,44 @@
 /* jshint devel:true */
+
+var Searcher = {
+  init: function() {
+    $(this.selector).typeahead({
+      hint: true,
+      highlight: true,
+      minLength: 1
+    },
+    {
+      name: 'donations',
+      source: this.substringMatcher(this.donationsDataSource)
+    });
+  },
+  selector: '#search-field',
+  donationsDataSource: [],
+  substringMatcher: function(strs) {
+    return function findMatches(q, cb) {
+      var matches, substrRegex, data;
+
+      // an array that will be populated with substring matches
+      matches = [];
+
+      // regex used to determine if a string contains the substring `q`
+      substrRegex = new RegExp(q, 'i');
+
+      // iterate through the pool of strings and for any string that
+      // contains the substring `q`, add it to the `matches` array
+      $.each(strs, function(i, str) {
+        if (substrRegex.test(str)) {
+          // the typeahead jQuery plugin expects suggestions to a
+          // JavaScript object, refer to typeahead docs for more info
+          matches.push({ value: str });
+        }
+      });
+
+      cb(matches);
+    }
+  }
+}
+
 $(function() {
   var margin = {top: 40, right: 0, bottom: 0, left: 0},
   width = 700 - margin.right - margin.left,
@@ -43,12 +83,12 @@ $(function() {
   .attr("dy", "1em");
 
   d3.json("/api/v1/treemaps/parties.json", function(root) {
-    var rootElement = root;
     initialize(root);
     var totalSpending = accumulate(root);
     console.log('Total spending: ' + totalSpending);
     layout(root);
     display(root);
+    setupSearch();
 
     function initialize(root) {
       root.x = root.y = 0;
@@ -126,8 +166,6 @@ $(function() {
       .call(text);
 
       function transition(d) {
-        console.log(d)
-
         if (transitioning || !d) return;
         transitioning = true;
 
@@ -163,23 +201,6 @@ $(function() {
 
       return g;
     }
-
-    var searchInput = d3.select("#search-field")
-                      .on("keyup", keyuped);
-
-    function keyuped() {
-      if (d3.event.keyCode === 27) {
-        this.value = "";
-        this.blur();
-      }
-      search(this.value.trim());
-    }
-
-    function search(query) {
-      debugger;
-      console.log(query);
-    }
-
     function text(text) {
       text.attr("x", function(d) { return x(d.x) + 6; })
       .attr("y", function(d) { return y(d.y) + 6; });
@@ -210,7 +231,27 @@ $(function() {
       return d.parent
         ? name(d.parent) + " - " + d.name
         : d.name;
+    };
+
+    function selectTreemapChildren() {
+      var dataSource = [];
+      dataSource = d3.selectAll('g.children').data();
+      dataSource = dataSource.concat(d3.selectAll('g.children rect').data());
+      return dataSource;
     }
+
+    function findNode(event, suggestion, datasetName) {
+      var children = selectTreemapChildren();
+      var selectedNode = children.filter(function(c) { return c.name === suggestion.value })[0]
+    }
+
+    function setupSearch() {
+      Searcher.donationsDataSource = selectTreemapChildren().map(function(d) { return d.name });
+
+      Searcher.init()
+      $(Searcher.selector).on('typeahead:selected', findNode)
+      $(Searcher.selector).on('typeahead:autocompleted', findNode)
+    };
   });
 
 });

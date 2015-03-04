@@ -29,7 +29,9 @@
     <div class="container">
       <form>
         <div class="form-group">
-          <input type="search" class="form-control" id="search-field" placeholder="Enter a name to start searching...">
+          <div id='search-wrapper'>
+            <input type="search" class="form-control" id="search-field" placeholder="Enter a name to start searching...">
+          </div>
         </div>
 
         <p>
@@ -55,6 +57,8 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/d3/d3.js"></script>
+    <script src="../bower_components/typeahead.js/dist/typeahead.bundle.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

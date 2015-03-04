@@ -1,2 +1,4 @@
-# electoral-returns-parser
-Electoral Returns parsing scripts
+# Electoral Returns Visualisation
+
+This app runs a visualisation of the Electoral Returns Data.
+
