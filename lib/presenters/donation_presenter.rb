@@ -1,9 +1,10 @@
 class DonationPresenter < BasePresenter
   def show
     default.merge({
-      id: record.id,
       name: record.donor.name,
       candidate: record.candidate.name,
+      party: record.candidate.party.name,
+      electorate: record.candidate.electorate.name,
       amount: record.amount
     })
   end
