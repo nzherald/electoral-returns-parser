@@ -205,7 +205,7 @@ $(function() {
         }
 
         function transitionToNode(event, suggestion, datasetName) {
-          $(Searcher.selector).val('');
+          $(Searcher.selector).typeahead('val', '');
           var selectedNode = findNode(event, suggestion, datasetName);
           //var transitionSequence = findParentChain(selectedNode);
           //for(var i = 0, len = transitionSequence.length; i < len; i++) {
@@ -315,12 +315,12 @@ $(function() {
 
       function setupSearch() {
         Searcher.donationsDataSource = selectTreemapChildren().map(function(d) { return d.name });
-
         Searcher.init()
       };
     });
-  }
-  insertTreemap('/api/v1/treemaps/parties.json');
+  };
+
+  insertTreemap('parties.json');
 
   $('.by-party').on('click', function(e) {
     e.preventDefault();
@@ -328,7 +328,7 @@ $(function() {
     $('button.by-party').addClass('active');
     $(Searcher.selector).typeahead('destroy');
     $('#treemap').empty();
-    insertTreemap('/api/v1/treemaps/parties.json');
+    insertTreemap('parties.json');
   });
   $('.by-electorate').on('click', function(e) {
     e.preventDefault();
@@ -336,7 +336,7 @@ $(function() {
     $('button.by-electorate').addClass('active');
     $(Searcher.selector).typeahead('destroy');
     $('#treemap').empty();
-    insertTreemap('/api/v1/treemaps/electorates.json');
+    insertTreemap('electorates.json');
   });
   $('.by-donor').on('click', function(e) {
     e.preventDefault();
@@ -344,6 +344,6 @@ $(function() {
     $('button.by-donor').addClass('active');
     $(Searcher.selector).typeahead('destroy');
     $('#treemap').empty();
-    insertTreemap('/api/v1/treemaps/donors.json');
+    insertTreemap('donors.json');
   });
 });

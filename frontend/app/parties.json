@@ -1,0 +1,2430 @@
+{
+  "name": "Donations by party",
+  "children": [
+    {
+      "name": "National Party",
+      "colour": "#388cc3",
+      "children": [
+        {
+          "name": "Amy ADAMS",
+          "children": [
+            {
+              "name": "Douglas Catley (D H Catley Trust)",
+              "value": 10000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 15000.0
+            }
+          ]
+        },
+        {
+          "name": "Kanwal BAKSHI",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 10000.0
+            }
+          ]
+        },
+        {
+          "name": "Todd BARCLAY",
+          "children": [
+            {
+              "name": "Ian & Annett Tulloch",
+              "value": 5000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 24654.0
+            }
+          ]
+        },
+        {
+          "name": "Maggie BARRY",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 14854.07
+            }
+          ]
+        },
+        {
+          "name": "Andrew BAYLY",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 7500.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 7500.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 4500.0
+            }
+          ]
+        },
+        {
+          "name": "David BENNETT",
+          "children": [
+            {
+              "name": "Agincourt Farms Ltd",
+              "value": 10000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 2500.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 5000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 3000.0
+            }
+          ]
+        },
+        {
+          "name": "Paula BENNETT",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 13028.0
+            },
+            {
+              "name": "Priscilla Ip",
+              "value": 2000.0
+            },
+            {
+              "name": "Rob Prince",
+              "value": 3630.0
+            }
+          ]
+        },
+        {
+          "name": "Chris BISHOP",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 26419.0
+            }
+          ]
+        },
+        {
+          "name": "Chester BORROWS",
+          "children": [
+            {
+              "name": "DWA Bennett",
+              "value": 3000.0
+            },
+            {
+              "name": "Neil Walker",
+              "value": 2000.0
+            },
+            {
+              "name": "Nukuhau Carbon Limited",
+              "value": 3000.0
+            },
+            {
+              "name": "RW Bartley",
+              "value": 2000.0
+            },
+            {
+              "name": "Talley's Group Ltd",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Simon BRIDGES",
+          "children": [
+            {
+              "name": "Carrus Corporation",
+              "value": 11500.0
+            },
+            {
+              "name": "Carrus Corporation",
+              "value": 8500.0
+            },
+            {
+              "name": "D Waddell",
+              "value": 5000.0
+            },
+            {
+              "name": "Eves Realty",
+              "value": 3000.0
+            },
+            {
+              "name": "J Swap Ltd",
+              "value": 3000.0
+            },
+            {
+              "name": "Puran Singh",
+              "value": 3900.0
+            },
+            {
+              "name": "Sunny Hort Management",
+              "value": 2500.0
+            }
+          ]
+        },
+        {
+          "name": "Simeon BROWN",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 14721.47
+            }
+          ]
+        },
+        {
+          "name": "Gerry BROWNLEE",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 15000.0
+            }
+          ]
+        },
+        {
+          "name": "Jonathan COLEMAN",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 15047.19
+            }
+          ]
+        },
+        {
+          "name": "Judith COLLINS",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 19180.59
+            }
+          ]
+        },
+        {
+          "name": "Jacqui DEAN",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 10000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Matt DOOCEY",
+          "children": [
+            {
+              "name": "Andrew Tilby",
+              "value": 3000.0
+            },
+            {
+              "name": "D C Carter",
+              "value": 2000.0
+            },
+            {
+              "name": "Dormer Construction Ltd",
+              "value": 3000.0
+            },
+            {
+              "name": "Holland Memorial Trust",
+              "value": 3000.0
+            },
+            {
+              "name": "Jamie Thomas",
+              "value": 2350.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 5500.0
+            },
+            {
+              "name": "Robin & Vicky Brown",
+              "value": 2000.0
+            },
+            {
+              "name": "Stonyhurst Timber",
+              "value": 2000.0
+            },
+            {
+              "name": "Sutherland Timber",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Sarah DOWIE",
+          "children": [
+            {
+              "name": "AJ Baird",
+              "value": 2000.0
+            },
+            {
+              "name": "Niagara Sawmilling",
+              "value": 2500.0
+            },
+            {
+              "name": "Scott O'Donell - HW Richardson Group",
+              "value": 10000.0
+            },
+            {
+              "name": "Talley's Group Ltd",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Christopher FINLAYSON",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 1992.8
+            }
+          ]
+        },
+        {
+          "name": "Craig FOSS",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 172.5
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 6673.32
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 956.85
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 4155.73
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 11057.82
+            }
+          ]
+        },
+        {
+          "name": "Paul FOSTER-BELL",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 10700.24
+            }
+          ]
+        },
+        {
+          "name": "Paul GOLDSMITH",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 621.61
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 915.4
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 411.13
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 3588.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 267.38
+            },
+            {
+              "name": "Team McMillan Ltd",
+              "value": 3000.0
+            }
+          ]
+        },
+        {
+          "name": "Jo GOODHEW",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 34417.92
+            }
+          ]
+        },
+        {
+          "name": "Tim GROSER",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 18672.28
+            }
+          ]
+        },
+        {
+          "name": "Nathan GUY",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 22992.97
+            }
+          ]
+        },
+        {
+          "name": "Jo HAYES",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 6749.99
+            }
+          ]
+        },
+        {
+          "name": "Lewis HOLDEN",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 3148.57
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 20363.88
+            }
+          ]
+        },
+        {
+          "name": "Brett HUDSON",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 10800.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 500.0
+            }
+          ]
+        },
+        {
+          "name": "John KEY",
+          "children": [
+            {
+              "name": "Christopher & Banks Private Equity Limited",
+              "value": 10000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 10325.95
+            }
+          ]
+        },
+        {
+          "name": "Nuk KORAKO",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 20962.83
+            }
+          ]
+        },
+        {
+          "name": "Barbara KURIGER",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 20000.0
+            }
+          ]
+        },
+        {
+          "name": "Melissa LEE",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 13600.0
+            }
+          ]
+        },
+        {
+          "name": "Peseta Sam LOTU-IIGA",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 34150.0
+            }
+          ]
+        },
+        {
+          "name": "Tim MACINDOE",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 15000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 5000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 2500.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 500.0
+            }
+          ]
+        },
+        {
+          "name": "Todd McCLAY",
+          "children": [
+            {
+              "name": "Holmes Capital Ltd",
+              "value": 5000.0
+            },
+            {
+              "name": "J Badh & H Kaur",
+              "value": 5000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 25000.0
+            },
+            {
+              "name": "Red Stag",
+              "value": 10000.0
+            },
+            {
+              "name": "Talley's Group Ltd",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Murray McCULLY",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 10000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 1029.25
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 1411.16
+            }
+          ]
+        },
+        {
+          "name": "Ian McKELVIE",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 17065.54
+            }
+          ]
+        },
+        {
+          "name": "Mark MITCHELL",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 1034.99
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 2794.14
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 7888.3
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 3048.38
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 8488.72
+            }
+          ]
+        },
+        {
+          "name": "Todd MULLER",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 25000.0
+            }
+          ]
+        },
+        {
+          "name": "Jono NAYLOR",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 25688.34
+            }
+          ]
+        },
+        {
+          "name": "Alfred NGARO",
+          "children": [
+            {
+              "name": "All Seasons Properties Ltd",
+              "value": 9187.82
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 18819.67
+            },
+            {
+              "name": "Talley's Group Ltd",
+              "value": 2500.0
+            }
+          ]
+        },
+        {
+          "name": "Simon O'CONNOR",
+          "children": [
+            {
+              "name": "Barry Colman",
+              "value": 5000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 17882.29
+            }
+          ]
+        },
+        {
+          "name": "Hekia PARATA",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 15454.06
+            }
+          ]
+        },
+        {
+          "name": "Parmjeet PARMAR",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 3000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 1500.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 2903.88
+            }
+          ]
+        },
+        {
+          "name": "Christopher PENK",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 5000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 3000.0
+            },
+            {
+              "name": "Nicki and Josh Taylor",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Maureen PUGH",
+          "children": [
+            {
+              "name": "Holland Memorial Trust",
+              "value": 5000.0
+            },
+            {
+              "name": "Holland Memorial Trust",
+              "value": 5000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 5000.0
+            },
+            {
+              "name": "Talley's Group Ltd",
+              "value": 5000.0
+            },
+            {
+              "name": "Tony Williams",
+              "value": 1000.0
+            },
+            {
+              "name": "Tony Williams",
+              "value": 3000.0
+            }
+          ]
+        },
+        {
+          "name": "Shane RETI",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 21394.35
+            }
+          ]
+        },
+        {
+          "name": "Jami-Lee ROSS",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 24296.21
+            },
+            {
+              "name": "Roncon Pacific Hotel Managment Holdings Ltd",
+              "value": 25000.0
+            }
+          ]
+        },
+        {
+          "name": "Mike SABIN",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 15200.0
+            },
+            {
+              "name": "Talley's Group Ltd",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Alastair SCOTT",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 3000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 7000.0
+            }
+          ]
+        },
+        {
+          "name": "Scott SIMPSON",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 25000.0
+            }
+          ]
+        },
+        {
+          "name": "Nick SMITH",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 25000.0
+            }
+          ]
+        },
+        {
+          "name": "Stuart SMITH",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 10000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 10000.0
+            },
+            {
+              "name": "Talley's Group Ltd",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Lindsay TISCH",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 7054.13
+            },
+            {
+              "name": "Talley's Group Ltd",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Anne TOLLEY",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 529.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 12967.92
+            }
+          ]
+        },
+        {
+          "name": "Misa Fia TURNER",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 14749.84
+            }
+          ]
+        },
+        {
+          "name": "Louise UPSTON",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 29027.0
+            }
+          ]
+        },
+        {
+          "name": "Karl VARLEY",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 10657.48
+            }
+          ]
+        },
+        {
+          "name": "Nicky WAGNER",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 15000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 2500.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 6000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 1000.0
+            }
+          ]
+        },
+        {
+          "name": "Wayne WALFORD",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 10017.29
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 20231.54
+            }
+          ]
+        },
+        {
+          "name": "Hamish WALKER",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 500.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 5000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 500.0
+            }
+          ]
+        },
+        {
+          "name": "Maurice WILLIAMSON",
+          "children": [
+            {
+              "name": "Grant Biel",
+              "value": 4500.0
+            }
+          ]
+        },
+        {
+          "name": "Michael WOODHOUSE",
+          "children": [
+            {
+              "name": "New Zealand National Party",
+              "value": 15000.0
+            }
+          ]
+        },
+        {
+          "name": "Jonathan YOUNG",
+          "children": [
+            {
+              "name": "Divisional Holdings New Plymouth",
+              "value": 5000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 4000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 4000.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 4225.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 1540.0
+            },
+            {
+              "name": "New Zealand National Party",
+              "value": 8484.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Labour Party",
+      "colour": "#ca1a1a",
+      "children": [
+        {
+          "name": "Glenda ALEXANDER",
+          "children": [
+            {
+              "name": "Nordmeyer Trust",
+              "value": 5383.73
+            },
+            {
+              "name": "NZ Meatworkers Union",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Cliff ALLEN",
+          "children": [
+            {
+              "name": "J & K Broughan",
+              "value": 2000.0
+            },
+            {
+              "name": "Labour (Hamilton East Labour Electorate Committee)",
+              "value": 2940.0
+            }
+          ]
+        },
+        {
+          "name": "Virginia ANDERSEN",
+          "children": [
+            {
+              "name": "Labour Ohariu Electorate - Auction",
+              "value": 2536.37
+            },
+            {
+              "name": "Labour Ohariu Electorate - Dinner",
+              "value": 2250.0
+            }
+          ]
+        },
+        {
+          "name": "Jacinda ARDERN",
+          "children": [
+            {
+              "name": "John Reynolds",
+              "value": 5200.0
+            },
+            {
+              "name": "M.J. Todd",
+              "value": 3000.0
+            },
+            {
+              "name": "Nicholas Wells",
+              "value": 2000.0
+            },
+            {
+              "name": "Patrick Reynolds",
+              "value": 3500.0
+            },
+            {
+              "name": "Simon McArley",
+              "value": 5000.0
+            },
+            {
+              "name": "Wilson Smith",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Carol BEAUMONT",
+          "children": [
+            {
+              "name": "R R Gallagher",
+              "value": 1600.0
+            }
+          ]
+        },
+        {
+          "name": "David CLARK",
+          "children": [
+            {
+              "name": "NZ Meatworkers Union",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Tamati Gerald COFFEY",
+          "children": [
+            {
+              "name": "Johan Morreau",
+              "value": 3750.0
+            }
+          ]
+        },
+        {
+          "name": "Clayton COSGROVE",
+          "children": [
+            {
+              "name": "Clayton Cosgrove Supporters Club",
+              "value": 23000.0
+            },
+            {
+              "name": "Dormer Construction Limited ",
+              "value": 7000.0
+            },
+            {
+              "name": "Labour (New Zealand Labour Party Head Office)",
+              "value": 1536.89
+            },
+            {
+              "name": "Labour Party - Waimakariri Electorate Committee - contribution as part of Clayton Cosgrove Supporters Club donation",
+              "value": 6000.0
+            },
+            {
+              "name": "McAlpines Limited",
+              "value": 681.38
+            },
+            {
+              "name": "Resource Finance Limited ",
+              "value": 10000.0
+            }
+          ]
+        },
+        {
+          "name": "Liz CRAIG",
+          "children": [
+            {
+              "name": "NZ Meatworkers Union",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "David CUNLIFFE",
+          "children": [
+            {
+              "name": "Dr Di Nash",
+              "value": 2020.0
+            },
+            {
+              "name": "Mrs Olga Beckett",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Clare CURRAN",
+          "children": [
+            {
+              "name": "Labour Dunedin South Branch",
+              "value": 15400.0
+            },
+            {
+              "name": "Otago Southland Meat Workers Union",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "James Macbeth DANN",
+          "children": [
+            {
+              "name": "Phantom Billstickers",
+              "value": 4719.29
+            }
+          ]
+        },
+        {
+          "name": "Kelvin DAVIS",
+          "children": [
+            {
+              "name": "MJ Cullen",
+              "value": 2000.0
+            },
+            {
+              "name": "SC Close",
+              "value": 2000.0
+            },
+            {
+              "name": "Waipareira Whanau",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Kris FAAFOI",
+          "children": [
+            {
+              "name": "K G Douglas",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Phil GOFF",
+          "children": [
+            {
+              "name": "Kevin Chiv",
+              "value": 2000.0
+            },
+            {
+              "name": "Lim Nam Chhour",
+              "value": 10000.0
+            }
+          ]
+        },
+        {
+          "name": "Christine GREER",
+          "children": [
+            {
+              "name": "Dianne Yates",
+              "value": 5078.9
+            }
+          ]
+        },
+        {
+          "name": "Peeni HENARE",
+          "children": [
+            {
+              "name": "Robert Henare",
+              "value": 11000.0
+            }
+          ]
+        },
+        {
+          "name": "Richard HILLS",
+          "children": [
+            {
+              "name": "Ann Hartley",
+              "value": 400.0
+            },
+            {
+              "name": "Ann Hartley",
+              "value": 150.0
+            },
+            {
+              "name": "Ann Hartley",
+              "value": 1000.0
+            },
+            {
+              "name": "Labour (Northcote Labour Electorate Committee)",
+              "value": 2068.19
+            },
+            {
+              "name": "Labour (Northcote Labour Electorate Committee)",
+              "value": 4389.56
+            }
+          ]
+        },
+        {
+          "name": "Rachel JONES",
+          "children": [
+            {
+              "name": "Susan Vize",
+              "value": 6552.9
+            }
+          ]
+        },
+        {
+          "name": "Annette KING",
+          "children": [
+            {
+              "name": "Craig Emery",
+              "value": 2500.0
+            },
+            {
+              "name": "Doug Catley",
+              "value": 2000.0
+            },
+            {
+              "name": "Peter Noble",
+              "value": 1385.2
+            },
+            {
+              "name": "Peter Noble",
+              "value": 367.6
+            },
+            {
+              "name": "Peter Noble",
+              "value": 7451.3
+            },
+            {
+              "name": "Peter Noble",
+              "value": 4209.0
+            },
+            {
+              "name": "Peter Noble",
+              "value": 2820.5
+            },
+            {
+              "name": "Peter Noble",
+              "value": 2320.0
+            },
+            {
+              "name": "Steven Yung",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Iain LEES-GALLOWAY",
+          "children": [
+            {
+              "name": "Spinning Planet Website Services",
+              "value": 8208.7
+            },
+            {
+              "name": "WURC",
+              "value": 6000.0
+            }
+          ]
+        },
+        {
+          "name": "Andrew LITTLE",
+          "children": [
+            {
+              "name": "Andrew Little",
+              "value": 5904.1
+            }
+          ]
+        },
+        {
+          "name": "Anna LORCK",
+          "children": [
+            {
+              "name": "Labour (Tukituki Labour LEC)",
+              "value": 4000.0
+            },
+            {
+              "name": "Labour (Tukituki Labour LEC)",
+              "value": 9000.0
+            },
+            {
+              "name": "Labour (Tukituki Labour LEC)",
+              "value": 9500.0
+            },
+            {
+              "name": "Labour (Tukituki Labour LEC)",
+              "value": 2313.5
+            },
+            {
+              "name": "Labour (Tukituki Labour LEC)",
+              "value": 7500.0
+            }
+          ]
+        },
+        {
+          "name": "Trevor MALLARD",
+          "children": [
+            {
+              "name": "GRL Holdings",
+              "value": 5000.0
+            },
+            {
+              "name": "Sir Robert Jones",
+              "value": 6000.0
+            }
+          ]
+        },
+        {
+          "name": "Tofik MAMEDOV",
+          "children": [
+            {
+              "name": "Labour (Botany LEC)",
+              "value": 5730.0
+            },
+            {
+              "name": "Labour (Botany LEC)",
+              "value": 7700.0
+            },
+            {
+              "name": "Tarun Ahuja",
+              "value": 6562.5
+            }
+          ]
+        },
+        {
+          "name": "Kieran McANULTY",
+          "children": [
+            {
+              "name": "Bek Farr Nectarine Design",
+              "value": 3200.0
+            },
+            {
+              "name": "Central Amalgamated Workers Union",
+              "value": 2500.0
+            },
+            {
+              "name": "Justine Thorpe (Fundraiser organiser)",
+              "value": 10500.0
+            }
+          ]
+        },
+        {
+          "name": "Rob McCANN",
+          "children": [
+            {
+              "name": "Labour - Otaki LEC",
+              "value": 27050.4
+            },
+            {
+              "name": "Labour - Paraparaumu Branch",
+              "value": 2000.0
+            },
+            {
+              "name": "Labour - Waikanae Branch",
+              "value": 523.81
+            },
+            {
+              "name": "Labour - Waikanae Branch",
+              "value": 2200.0
+            }
+          ]
+        },
+        {
+          "name": "Tony MILNE",
+          "children": [
+            {
+              "name": "Film Evening Fund Raiser (I Rule)",
+              "value": 1564.0
+            },
+            {
+              "name": "Flyer Donation (L Carswell)",
+              "value": 2154.67
+            },
+            {
+              "name": "Labour - Fundraiser - Paint The Town Red Auction (R Watson)",
+              "value": 4413.19
+            },
+            {
+              "name": "Labour (Chch Central Elec Comm (L Carswell))",
+              "value": 5018.92
+            },
+            {
+              "name": "Labour (Chch Central Elec Comm (L Carswell))",
+              "value": 13369.58
+            }
+          ]
+        },
+        {
+          "name": "Sue MORONEY",
+          "children": [
+            {
+              "name": "Mike Moroney",
+              "value": 3000.0
+            },
+            {
+              "name": "Mike Moroney",
+              "value": 3000.0
+            },
+            {
+              "name": "Sue Moroney",
+              "value": 5000.0
+            },
+            {
+              "name": "Sue Moroney",
+              "value": 400.0
+            },
+            {
+              "name": "Sue Moroney",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Stuart Alexander NASH",
+          "children": [
+            {
+              "name": "Bob Jones",
+              "value": 5000.0
+            },
+            {
+              "name": "Caniwi Capital Partners ",
+              "value": 36000.0
+            },
+            {
+              "name": "AJ Kelly ",
+              "value": 31000.0
+            },
+            {
+              "name": "Labour Party - Napier branch",
+              "value": 8000.0
+            },
+            {
+              "name": "Labour Party - Taradale Branch",
+              "value": 5000.0
+            },
+            {
+              "name": "Labour Party - Women's branch",
+              "value": 5000.0
+            },
+            {
+              "name": "Lynch Phibb",
+              "value": 8999.5
+            }
+          ]
+        },
+        {
+          "name": "Damien Peter O'CONNOR",
+          "children": [
+            {
+              "name": "Labour (West-Coast Tasman Committee)",
+              "value": 18000.0
+            },
+            {
+              "name": "Talley's Group Ltd",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Korbinian POSCHL",
+          "children": [
+            {
+              "name": "Labour Party",
+              "value": 6000.0
+            }
+          ]
+        },
+        {
+          "name": "Willow-Jean PRIME",
+          "children": [
+            {
+              "name": "H Dear",
+              "value": 1000.0
+            },
+            {
+              "name": "H Dear",
+              "value": 1000.0
+            },
+            {
+              "name": "H Dear",
+              "value": 300.0
+            }
+          ]
+        },
+        {
+          "name": "Hermann RETZLAFF",
+          "children": [
+            {
+              "name": "Hermann Paul Retzlaff",
+              "value": 2000.0
+            },
+            {
+              "name": "Leota Fipi",
+              "value": 5071.6
+            },
+            {
+              "name": "Leticia Retzlaff",
+              "value": 5570.9
+            },
+            {
+              "name": "RPA Ltd",
+              "value": 2000.0
+            },
+            {
+              "name": "Slade Family",
+              "value": 1800.0
+            }
+          ]
+        },
+        {
+          "name": "Grant ROBERTSON",
+          "children": [
+            {
+              "name": "Beverly Price",
+              "value": 2000.0
+            },
+            {
+              "name": "Maritime Union of NZ",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Adrian RURAWHE",
+          "children": [
+            {
+              "name": "Christina Gush",
+              "value": 3065.0
+            },
+            {
+              "name": "Gaylene Nepia",
+              "value": 3975.0
+            },
+            {
+              "name": "Jackie Rurawhe",
+              "value": 2375.0
+            },
+            {
+              "name": "Paul F A Reynolds",
+              "value": 1500.0
+            },
+            {
+              "name": "Walter Rurawhe",
+              "value": 2555.0
+            }
+          ]
+        },
+        {
+          "name": "Deborah RUSSELL",
+          "children": [
+            {
+              "name": "Labour Party Feilding Branch",
+              "value": 100.0
+            },
+            {
+              "name": "Labour Party Feilding Branch",
+              "value": 5000.0
+            },
+            {
+              "name": "Labour Party Feilding Branch",
+              "value": 10000.0
+            }
+          ]
+        },
+        {
+          "name": "Jenny SALESA",
+          "children": [
+            {
+              "name": "Labour (Manukau East Electorate)",
+              "value": 29330.07
+            },
+            {
+              "name": "Matila Latu-Ali",
+              "value": 2700.0
+            }
+          ]
+        },
+        {
+          "name": "David SHEARER",
+          "children": [
+            {
+              "name": "David Fowlie",
+              "value": 500.0
+            },
+            {
+              "name": "David Shearer",
+              "value": 2000.0
+            },
+            {
+              "name": "J Hutchinson",
+              "value": 150.0
+            }
+          ]
+        },
+        {
+          "name": "Sua William SIO",
+          "children": [
+            {
+              "name": "Andrew Singh",
+              "value": 2000.0
+            },
+            {
+              "name": "Mangere Labour Party",
+              "value": 4886.22
+            },
+            {
+              "name": "Sally Ikinofo",
+              "value": 10000.0
+            },
+            {
+              "name": "Sally Ikinofo",
+              "value": 8500.0
+            },
+            {
+              "name": "Sally Ikinofo",
+              "value": 6500.0
+            }
+          ]
+        },
+        {
+          "name": "Lesley SOPER",
+          "children": [
+            {
+              "name": "David Melmoth",
+              "value": 4000.0
+            },
+            {
+              "name": "Josh and Nikki Taylor",
+              "value": 2000.0
+            },
+            {
+              "name": "NZ Meatworkers Union",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Claire SZABO",
+          "children": [
+            {
+              "name": "Labour (North Shore Labour Party)",
+              "value": 9127.42
+            }
+          ]
+        },
+        {
+          "name": "Janette WALKER",
+          "children": [
+            {
+              "name": "Olivia Isobel Scaletti",
+              "value": 4000.0
+            }
+          ]
+        },
+        {
+          "name": "Louisa Hareruia WALL",
+          "children": [
+            {
+              "name": "Bill Marshall",
+              "value": 1800.0
+            },
+            {
+              "name": "Ian Kaihe-Wetting and Erik Kaihe-Wetting",
+              "value": 1800.0
+            }
+          ]
+        },
+        {
+          "name": "Meka WHAITIRI",
+          "children": [
+            {
+              "name": "HB Seafoods",
+              "value": 2000.0
+            },
+            {
+              "name": "Ruruhira Whanau Trust",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Poto WILLIAMS",
+          "children": [
+            {
+              "name": "Ken Anderson",
+              "value": 3000.0
+            },
+            {
+              "name": "Labour (Christchurch East Labour Electorate Committee (Paint The Town Red))",
+              "value": 4000.0
+            },
+            {
+              "name": "Labour (Northern South Island Labour Regional Council)",
+              "value": 2154.67
+            }
+          ]
+        },
+        {
+          "name": "Michael Philip WOOD",
+          "children": [
+            {
+              "name": "Helga Arlington (Quiz night fundraiser)",
+              "value": 1807.0
+            },
+            {
+              "name": "Labour (Mt Roskill Labour LEC)",
+              "value": 2000.0
+            },
+            {
+              "name": "Paul Grimshaw",
+              "value": 3000.0
+            }
+          ]
+        },
+        {
+          "name": "Megan WOODS",
+          "children": [
+            {
+              "name": "Labour (Wigram)",
+              "value": 4000.0
+            },
+            {
+              "name": "Labour (Wigram)",
+              "value": 1000.0
+            },
+            {
+              "name": "Wigram Housie",
+              "value": 15000.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conservative",
+      "colour": "#39c9e7",
+      "children": [
+        {
+          "name": "Leighton BAKER",
+          "children": [
+            {
+              "name": "A Nuttall",
+              "value": 550.0
+            }
+          ]
+        },
+        {
+          "name": "Callum BLAIR",
+          "children": [
+            {
+              "name": "Conservative Party of New Zealand",
+              "value": 10000.0
+            }
+          ]
+        },
+        {
+          "name": "Michael BRUNNER",
+          "children": [
+            {
+              "name": "Conservative Party HQ",
+              "value": 8684.04
+            }
+          ]
+        },
+        {
+          "name": "Andrew CRAIG",
+          "children": [
+            {
+              "name": "Conservative Party",
+              "value": 3194.57
+            }
+          ]
+        },
+        {
+          "name": "Colin CRAIG",
+          "children": [
+            {
+              "name": "Conservative Party HQ",
+              "value": 20010.5
+            }
+          ]
+        },
+        {
+          "name": "Deborah CUNLIFFE",
+          "children": [
+            {
+              "name": "Conservative Party HQ",
+              "value": 492.42
+            }
+          ]
+        },
+        {
+          "name": "Nathaniel HESLOP",
+          "children": [
+            {
+              "name": "Conservative Party HQ",
+              "value": 597.12
+            }
+          ]
+        },
+        {
+          "name": "Anton HEYNS",
+          "children": [
+            {
+              "name": "Conservative Party",
+              "value": 11039.39
+            }
+          ]
+        },
+        {
+          "name": "Garth McVICAR",
+          "children": [
+            {
+              "name": "Conservative Party of New Zealand",
+              "value": 25183.44
+            }
+          ]
+        },
+        {
+          "name": "Melissa PERKIN",
+          "children": [
+            {
+              "name": "Conservative Party of New Zealand",
+              "value": 16691.4
+            }
+          ]
+        },
+        {
+          "name": "Christine RANKIN",
+          "children": [
+            {
+              "name": "Conservative Party of New Zealand",
+              "value": 21782.32
+            }
+          ]
+        },
+        {
+          "name": "Mel TAYLOR",
+          "children": [
+            {
+              "name": "Conservative Party",
+              "value": 10908.7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Internet Party",
+      "colour": "#64288C",
+      "children": [
+        {
+          "name": "Beverley BALLANTINE",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 17768.29
+            }
+          ]
+        },
+        {
+          "name": "Ray CALVER",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 13073.57
+            }
+          ]
+        },
+        {
+          "name": "David CURRIN",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 24970.43
+            }
+          ]
+        },
+        {
+          "name": "Pani FARVID",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 14038.29
+            }
+          ]
+        },
+        {
+          "name": "Laila HARRE",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 6610.52
+            }
+          ]
+        },
+        {
+          "name": "Gil HO",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 17935.79
+            }
+          ]
+        },
+        {
+          "name": "Grant KEINZLEY",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 13241.09
+            }
+          ]
+        },
+        {
+          "name": "Andrew LEPINE",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 9272.58
+            }
+          ]
+        },
+        {
+          "name": "Lois McCLINTOCK",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 10994.23
+            }
+          ]
+        },
+        {
+          "name": "Miriam PIERARD",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 29266.99
+            }
+          ]
+        },
+        {
+          "name": "Patrick SALMON",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 12577.05
+            }
+          ]
+        },
+        {
+          "name": "Roshni SAMI",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 19076.93
+            }
+          ]
+        },
+        {
+          "name": "Rob STEWART",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 9103.29
+            }
+          ]
+        },
+        {
+          "name": "Callum VALENTINE",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 4194.69
+            }
+          ]
+        },
+        {
+          "name": "Chris YONG",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 29220.89
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent",
+      "colour": "#ccc",
+      "children": [
+        {
+          "name": "Penny BRIGHT",
+          "children": [
+            {
+              "name": "Lisa Prager",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Susanna Susara KRUGER",
+          "children": [
+            {
+              "name": "H. Kane",
+              "value": 1500.0
+            },
+            {
+              "name": "M Hart",
+              "value": 1500.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Māori Party",
+      "colour": "#db7e18",
+      "children": [
+        {
+          "name": "Ngaire BUTTON",
+          "children": [
+            {
+              "name": "Maori Party",
+              "value": 5000.0
+            },
+            {
+              "name": "Ngaire Button",
+              "value": 9700.0
+            }
+          ]
+        },
+        {
+          "name": "Te Ururoa James FLAVELL",
+          "children": [
+            {
+              "name": "Maori Party",
+              "value": 5000.0
+            },
+            {
+              "name": "Maori Party ",
+              "value": 29000.0
+            }
+          ]
+        },
+        {
+          "name": "Marama FOX",
+          "children": [
+            {
+              "name": "Maori Party",
+              "value": 17000.0
+            },
+            {
+              "name": "Maori Party Branch Donations",
+              "value": 1775.0
+            },
+            {
+              "name": "Maori Party Fundraising",
+              "value": 2900.0
+            }
+          ]
+        },
+        {
+          "name": "Anaru KAIPO",
+          "children": [
+            {
+              "name": "Charles Joe",
+              "value": 4000.0
+            }
+          ]
+        },
+        {
+          "name": "Chris McKENZIE",
+          "children": [
+            {
+              "name": "George Turia",
+              "value": 10000.0
+            },
+            {
+              "name": "Maori Party National Office",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Rangi McLEAN",
+          "children": [
+            {
+              "name": "John Murphy - Hawera Trust",
+              "value": 1850.5
+            },
+            {
+              "name": "Maori Party National Council",
+              "value": 5000.0
+            },
+            {
+              "name": "Susan Cullen",
+              "value": 1889.59
+            },
+            {
+              "name": "Te Tai Tokerau Electorate",
+              "value": 10000.0
+            },
+            {
+              "name": "Te Tai Tokerau Electorate",
+              "value": 3000.0
+            },
+            {
+              "name": "Veronica Henare",
+              "value": 2220.0
+            }
+          ]
+        },
+        {
+          "name": "Te Hira PAENGA",
+          "children": [
+            {
+              "name": "Maori Party",
+              "value": 95000.0
+            },
+            {
+              "name": "Maori Party",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Nancy TUAINE",
+          "children": [
+            {
+              "name": "Whanganui Regional Development Trust Board",
+              "value": 5000.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New Zealand First Party",
+      "colour": "#000",
+      "children": [
+        {
+          "name": "Steve CAMPBELL",
+          "children": [
+            {
+              "name": "Y Parker",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Ron MARK",
+          "children": [
+            {
+              "name": "Alleon Trust (Alan and Leonie Eastergaard)",
+              "value": 1000.0
+            },
+            {
+              "name": "B P Henry",
+              "value": 2000.0
+            },
+            {
+              "name": "CK Lyon",
+              "value": 2500.0
+            },
+            {
+              "name": "CK Lyon",
+              "value": 2500.0
+            },
+            {
+              "name": "Fishing Supplies Limited",
+              "value": 5000.0
+            },
+            {
+              "name": "Threefold Foundation",
+              "value": 3000.0
+            },
+            {
+              "name": "Workman Enterprises Limited",
+              "value": 500.0
+            }
+          ]
+        },
+        {
+          "name": "Clayton MITCHELL",
+          "children": [
+            {
+              "name": "Clayton Mitchell",
+              "value": 4553.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Green Party",
+      "colour": "#1ea951",
+      "children": [
+        {
+          "name": "David CLENDON",
+          "children": [
+            {
+              "name": "BEECO Ltd",
+              "value": 2500.0
+            },
+            {
+              "name": "Brad Windust",
+              "value": 2500.0
+            }
+          ]
+        },
+        {
+          "name": "Barry COATES",
+          "children": [
+            {
+              "name": "Phillip Mills",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "Julie Anne GENTER",
+          "children": [
+            {
+              "name": "Stuart Donovan",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "John HART",
+          "children": [
+            {
+              "name": "Chris Hackney",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Mojo MATHERS",
+          "children": [
+            {
+              "name": "Don Murray",
+              "value": 1738.15
+            }
+          ]
+        },
+        {
+          "name": "Chris PERLEY",
+          "children": [
+            {
+              "name": "J W Jukes",
+              "value": 200.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Democrats for Social Credit",
+      "colour": "#1A4935",
+      "children": [
+        {
+          "name": "Stephnie DE RUYTER",
+          "children": [
+            {
+              "name": "Democrats for Social Credit",
+              "value": 5113.26
+            }
+          ]
+        },
+        {
+          "name": "Chris LEITCH",
+          "children": [
+            {
+              "name": "Democrats for Social Credit",
+              "value": 2500.0
+            },
+            {
+              "name": "Democrats for Social Credit",
+              "value": 2000.0
+            },
+            {
+              "name": "Democrats for Social Credit",
+              "value": 4000.0
+            },
+            {
+              "name": "Gloria Bruni",
+              "value": 1000.0
+            }
+          ]
+        },
+        {
+          "name": "Warren VOIGHT",
+          "children": [
+            {
+              "name": "NZ Democrats for Social Credit Party",
+              "value": 1325.95
+            },
+            {
+              "name": "NZ Democrats for Social Credit Party",
+              "value": 1104.0
+            },
+            {
+              "name": "NZ Democrats for Social Credit Party",
+              "value": 115.0
+            },
+            {
+              "name": "NZ Democrats for Social Credit Party",
+              "value": 377.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ACT New Zealand",
+      "colour": "#ffde00",
+      "children": [
+        {
+          "name": "Robin GRIEVE",
+          "children": [
+            {
+              "name": "G Bell Grieve",
+              "value": 2000.0
+            },
+            {
+              "name": "J S Boscawen",
+              "value": 2500.0
+            }
+          ]
+        },
+        {
+          "name": "Mike MILNE",
+          "children": [
+            {
+              "name": "John Boscawen",
+              "value": 2500.0
+            }
+          ]
+        },
+        {
+          "name": "Stuart PEDERSEN",
+          "children": [
+            {
+              "name": "Marian Pedersen",
+              "value": 5000.0
+            }
+          ]
+        },
+        {
+          "name": "David SEYMOUR",
+          "children": [
+            {
+              "name": "ACT New Zealand",
+              "value": 24480.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MANA Movement",
+      "colour": "#DD411B",
+      "children": [
+        {
+          "name": "Hone HARAWIRA",
+          "children": [
+            {
+              "name": "Internet Party",
+              "value": 60000.0
+            },
+            {
+              "name": "Internet Party",
+              "value": 20000.0
+            },
+            {
+              "name": "Mana Tai Tokerau",
+              "value": 25000.0
+            }
+          ]
+        },
+        {
+          "name": "Te Hāmua NIKORA",
+          "children": [
+            {
+              "name": "Internet Mana",
+              "value": 60000.0
+            }
+          ]
+        },
+        {
+          "name": "Ariana PARETUTANGANUI-TAMATI",
+          "children": [
+            {
+              "name": "Michael Scott",
+              "value": 2000.0
+            }
+          ]
+        },
+        {
+          "name": "Annette SYKES",
+          "children": [
+            {
+              "name": "Internet Mana",
+              "value": 50000.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Focus New Zealand",
+      "colour": "#2390CB",
+      "children": [
+        {
+          "name": "Les KING",
+          "children": [
+            {
+              "name": "Quintech Ltd",
+              "value": 4500.0
+            }
+          ]
+        },
+        {
+          "name": "Ken RINTOUL",
+          "children": [
+            {
+              "name": "The Rintoul Group Ltd",
+              "value": 16883.13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "United Future",
+      "colour": "#5D0C59",
+      "children": [
+        {
+          "name": "Quentin TODD",
+          "children": [
+            {
+              "name": "United Future Auckland",
+              "value": 96.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
